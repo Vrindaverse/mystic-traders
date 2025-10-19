@@ -90,7 +90,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
               }}
             />
             <TiLocationArrow className="relative z-20" />
-            <p className="relative z-20">coming soon</p>
+            <p className="relative z-20">join us</p>
           </div>
         )}
       </div>
@@ -118,12 +118,12 @@ const Features = () => (
           src="videos/feature-1.mp4"
           title={
             <>
-              radia<b>n</b>t
+              special o<b>ff</b>er
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
-          isComingSoon
-        />
+  description="💸 Invest just ₹289 in yourself and learn powerful trading strategies to 10x your returns. Start your journey to financial freedom today!"
+  isComingSoon
+/>
       </BentoTilt>
 
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
@@ -136,7 +136,6 @@ const Features = () => (
               </>
             }
             description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
-            isComingSoon
           />
         </BentoTilt>
 
@@ -149,7 +148,7 @@ const Features = () => (
               </>
             }
             description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
-            isComingSoon
+  
           />
         </BentoTilt>
 
@@ -162,7 +161,7 @@ const Features = () => (
               </>
             }
             description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
-            isComingSoon
+
           />
         </BentoTilt>
 
