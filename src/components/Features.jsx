@@ -127,15 +127,15 @@ const Features = () => (
       </BentoTilt>
 
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
-        <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+        <BentoTilt className="bento-tilt_1 row-span-1  md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/feature-2.mp4"
             title={
               <>
-                zig<b>m</b>a
+                Arjun <b>Magotra</b>
               </>
             }
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+          description="Arjun Magotra — Engineer by degree, trader by grind, mentor by choice, fitness fan for life, and the mastermind behind Mystic Traders, teaching you how to trade like a pro."
           />
         </BentoTilt>
 
@@ -177,7 +177,7 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_2">
           <video
-            src="videos/feature-5.mp4"
+            src="videos/feature.mp4"
             loop
             muted
             autoPlay
